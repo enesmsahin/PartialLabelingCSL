@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Save Result",
+            "type": "python",
+            "request": "launch",
+            "program": "save_result.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--dataset_type",
+                "OpenImages",
+                "--model_name",
+                "tresnet_m",
+                "--model_path",
+                "downloadedModels/mtresnet_opim_86.72.pth",
+                "--th",
+                "0.7",
+                "--pic_path",
+                "/home/enes/Desktop/VisionAndLanguageExperimental/Dataset/Flickr30k/flickr30k/flickr30k_images/",
+                "--allowed_classes_file",
+                "/home/enes/Desktop/VisionAndLanguageExperimental/THESIS-CODE/open_images_class-descriptions-boxable_v5.csv"
+            ]
+        }
+    ]
+}
